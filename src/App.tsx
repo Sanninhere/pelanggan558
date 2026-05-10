@@ -520,9 +520,9 @@ const usingSupabase = true; // Tambahkan baris ini
           saving={saving}
         />
       )}
-      {modal.type === 'setup' && (
-        <SetupGuide onClose={() => setModal({ type: 'none' })} />
-      )}
+      {/* {modal.type === 'setup' && (
+  <SetupGuide onClose={() => setModal({ type: 'none' })} />
+)} */}
     </div>
   );
 }
