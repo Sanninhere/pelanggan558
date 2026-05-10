@@ -25,10 +25,11 @@ type ModalState =
 const SESSION_KEY = '588net_admin_session';
 
 export default function App() {
-  const {
-    pelangganList, loading, saving, usingSupabase,
-    fetchData, tambahPelanggan, editPelanggan, hapusPelanggan
-  } = usePelanggan();
+ const {
+  pelangganList, loading, saving, usingSupabase: _, // tambahkan : _ di sini
+  fetchData, tambahPelanggan, editPelanggan, hapusPelanggan
+} = usePelanggan();
+const usingSupabase = true; // Tambahkan baris ini
 
   const [isAdmin, setIsAdmin] = useState(() => {
     return sessionStorage.getItem(SESSION_KEY) === 'true';
