@@ -11,12 +11,9 @@ export interface Pelanggan {
 export type PelangganForm = Omit<Pelanggan, 'id' | 'created_at'>;
 
 export const PAKET_LIST = [
-  { label: '5 Mbps - Rp 100.000/bln', value: '5 Mbps' },
-  { label: '10 Mbps - Rp 150.000/bln', value: '10 Mbps' },
-  { label: '20 Mbps - Rp 200.000/bln', value: '20 Mbps' },
-  { label: '30 Mbps - Rp 250.000/bln', value: '30 Mbps' },
-  { label: '50 Mbps - Rp 350.000/bln', value: '50 Mbps' },
-  { label: '100 Mbps - Rp 500.000/bln', value: '100 Mbps' },
+  { label: '25 Mbps - Rp 165.000/bln', value: '25 Mbps' },
+  { label: '40 Mbps - Rp 197.000/bln', value: '40 Mbps' },
+  { label: '55 Mbps - Rp 245.000/bln', value: '55 Mbps' },
 ];
 
 export const STATUS_LIST: Array<Pelanggan['status']> = ['Aktif', 'Non-Aktif', 'Pending'];
