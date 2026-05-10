@@ -144,7 +144,7 @@ const usingSupabase = true; // Tambahkan baris ini
                 <div className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-gray-950 animate-pulse" />
               </div>
               <div>
-                <h1 className="text-lg font-bold text-white leading-none">588.NET</h1>
+                <h1 className="text-lg font-bold text-white leading-none">558.NET</h1>
                 <p className="text-gray-500 text-[10px] leading-none mt-0.5">Manajemen Pelanggan WiFi</p>
               </div>
             </div>
@@ -261,7 +261,7 @@ const usingSupabase = true; // Tambahkan baris ini
                 <span className="text-cyan-400 text-sm font-medium tracking-wide">Internet Service Provider</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold text-white">
-                Data Pelanggan <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">588.NET</span>
+                Data Pelanggan <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">558.NET</span>
               </h2>
               <p className="text-gray-400 text-sm">
                 Sistem manajemen pelanggan internet terpadu · Tahun 2026
@@ -477,7 +477,7 @@ const usingSupabase = true; // Tambahkan baris ini
         <footer className="text-center py-6 border-t border-gray-800">
           <div className="flex items-center justify-center gap-2 mb-2">
             <Wifi className="w-4 h-4 text-cyan-500" />
-            <span className="text-white font-bold">588.NET</span>
+            <span className="text-white font-bold">558.NET</span>
           </div>
           <p className="text-gray-600 text-xs">
             Sistem Manajemen Pelanggan WiFi · 2026 · All Rights Reserved
