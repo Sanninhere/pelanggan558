@@ -22,7 +22,7 @@ type ModalState =
   | { type: 'delete'; pelanggan: Pelanggan }
   | { type: 'setup' };
 
-const SESSION_KEY = '588net_admin_session';
+const SESSION_KEY = '558net_admin_session';
 
 export default function App() {
  const {
